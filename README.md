@@ -1,4 +1,4 @@
-# Springboot에서 Zookeeper 기반 리더선출 방법
+# Springboot에서 Zookeeper 기반 리더 선출 방법
 
 - 시스템을 운용할때 장애를 대비해 서버를 여러대 기동하게 되는데, 이 서버중 한 대에서만 특정 작업을 실행해야 하는 경우 어떻게 해야 할까요?
 - Database로? File로? Zookeeper로? 다양한 아키텍쳐로 문제를 해결할 수 있지만 Zookeeper를 기반으로 문제를 해결해 봅니다.
