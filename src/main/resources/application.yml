@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    cluster:
+      leader:
+        enabled: true
+#        id: xxx # ?????? ???? ??? UUID ????
+      zookeeper:
+        leader:
+          enable: true
+          namespace: ecs
+
+logging:
+  level:
+    ROOT: INFO
+    com.xrfriends.leadership: DEBUG
+    org.springframework.cloud.cluster: DEBUG
