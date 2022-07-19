@@ -112,7 +112,7 @@ java -jar ./build/libs/*.jar --server.port=8081
 java -jar ./build/libs/*.jar --server.port=8082
 ```
 
-### Third Instance
+#### Third Instance
 ```bash
 java -jar ./build/libs/*.jar --server.port=8083
 ```
